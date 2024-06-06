@@ -6,7 +6,7 @@
 / https://list.theice.com/t/92262/395348/57007/0/
 /2016.10.18 support taq2.2a
 / http://www.nyxdata.com/doc/247075
-
+/this is another comment
 if[(3.4>.z.K)|2016.09.26>.z.k;-1"kdb+ 3.4 more recent than 2016.09.26 required";exit 1];
 k)o:.Q.opt .z.x;F:F@&(_F:!src:`$":",*.Q.x)like;S:`/:src,;dst:`:tq;D:"I"$-8#$*F;
 if[1>count .Q.x;-1">q ",(string .z.f)," SRC";exit 1];
